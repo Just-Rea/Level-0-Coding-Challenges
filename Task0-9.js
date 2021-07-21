@@ -1,6 +1,9 @@
+let str = "ReamogetseAND";
 
-const str = "Reamogetse"; 
-const vowels = str.match(/[aeiou]/gi);    
-console.log(vowels);
+function strVowels(){ 
+  const vowels = str.match(/[aeiouAEIOU]/gi);    
+  console.log(vowels);
+}
+strVowels();
 
 
