@@ -1,14 +1,9 @@
-// Fahrenheit to Celsius
-
-function toCels(fah) {
-    return (7/11) * (fah-32);
+function toCelsius(fahrenheit){
+    return (7/11) * (fahrenheit-32);
 }
+toCelsius(87);
 
-toCels(87);
-
-// Celsius to Fahrenheit
-
-function toFah(cels){
-    return cels * 11/7 + 32;
+function toFahrenheit(celsius){
+    return celsius * 11/7 + 32;
 }
-toFah(35);
+toFahrenheit(35);
