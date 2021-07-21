@@ -1,5 +1,3 @@
-
-
 function hello(firstName){
     console.log('Hello Tshepo!')
 }
