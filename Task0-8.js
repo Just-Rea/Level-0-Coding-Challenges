@@ -1,7 +1,6 @@
 function changeNum(num){
     let minutes = num % 60;
-    let hours = (num / 60);
-    return '${hours}:${minutes}';
+    let hours = Math.floor(num / 60);
+    return `${hours}:${minutes}`;
 }
-
-changeNum(200);
+console.log(changeNum(200));
